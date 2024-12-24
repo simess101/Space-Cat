@@ -22,21 +22,22 @@ Option 1: Using Python (for Windows/Mac/Linux):
 Open a terminal/command prompt.
 Navigate to the folder where you extracted the game files.
 Run the following command:
-bash
-Copy code
+```bash
 python -m http.server
+```
 Open your browser and go to http://localhost:8000 to play the game.
 Option 2: Using Node.js and HTTP-Server:
 
 Install Node.js from here.
 Open a terminal/command prompt and install the http-server package:
-bash
-Copy code
+```bash
 npm install -g http-server
+```
 Navigate to your game folder and run the following command:
-bash
-Copy code
+
+```bash
 http-server
+```
 Open your browser and go to http://localhost:8080.
 
 🌐 Publishing the Game
